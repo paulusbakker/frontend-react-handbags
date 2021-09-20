@@ -4,6 +4,8 @@ main {
     justify-content: center;
 }
 
+
+
 nav {
     margin: 24px 0;
 }
@@ -12,6 +14,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 50px;
 }
 
 section {
@@ -19,7 +22,7 @@ section {
     font-size: 10px;
     height: 400px;
     overflow: hidden;
-    flex-basis: 350px;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 1;
     display: flex;
@@ -59,7 +62,7 @@ button + button {
 }
 
 article {
-    width: 100px;
+    width: 200px;
     position: relative;
     text-align: center;
     margin: 16px;
